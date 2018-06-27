@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+
+*, 
+html,
+body{
+
+	font-family: 'roboto';
+	
+
+}
+div{
+
+	width: 20%;
+	margin: 10px;
+	padding: 20px 10px 15px 30px;/*las margenes van en sentido de las manecillas del reloj*/
+    color:#fff;
+    height: 200px;
+}
+
+
+.caja1{
+
+background: red;
+
+border: 3px solid black;
+  overflow: hidden;
+
+}
+
+
+.caja2{
+
+background: blue;
+overflow:auto; /*genera un scroll*/
+
+}
+
+.caja3{
+
+background: yellow;
+overflow: visible; /* el overflow es el que maneja el contenido que hay dentro de las cajas*/
+
+}

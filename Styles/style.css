@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+
+*, 
+html,
+body{
+
+	font-family: 'roboto';
+	
+
+}
+div{
+
+	width: 20%;
+	margin: 10px;
+	padding: 20px 10px 15px 30px;
+    color:;
+    height: 200px;
+}
+
+
+.izquierda{
+
+background:;
+
+}
+
+
+.centro{
+
+background:;
+
+
+}
+
+.derecha{
+
+background:;
+overflow: visible; /* el overflow es el que maneja el contenido que hay dentro de las cajas*/
+
+}
+
+.nav {
+    background:gray;
+    height:200px;
+    width: 3000px;
+}
+.izquierda {
+    display: table-cell;
+    vertical-align: middle;
+}
+.centro {
+    display: table-cell;
+    vertical-align: middle;
+}
+.derecha {
+    display: table-cell;
+    vertical-align: middle;
+}
